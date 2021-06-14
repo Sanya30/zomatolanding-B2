@@ -135,6 +135,39 @@
   width: 120%;
   height: 200px;
 }
+.personal__text
+{
+  font-size: 30px;
+  color: #1d3557;
+  margin: 20px 0;
+  text-align: left;
+}
+.personal__info
+{
+ width:100%;
+
+}
+.personal__info__email
+{
+  display:flex;
+  gap:8px;
+  width:100%;
+}
+.email
+{
+  border-radius:3px;
+   width:70%;
+   padding:12px;
+}
+input{
+  border-color: lightpink;
+}
+.button__id
+{
+  width:100%;
+}
+
+
 
   @media (min-width: 768px) {
     .navbar {
@@ -184,7 +217,7 @@
         #dd2476 51%,
         #ff512f 100%
       );
-      z-index: -3;
+      z-index:-3;
       transform: skewY(-5deg);
   }
   .restaurants__description{
@@ -199,6 +232,14 @@
   .restaurants__flex
   {
       width:100%;
+  }
+  .personal__text
+  {
+    font-size:30px;
+  }
+  .personal__info
+  {
+    margin:50px;
   }
   }
   
