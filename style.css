@@ -47,15 +47,24 @@
   }
   
   .hero__container {
-    width: 100%;
-    
+    width: 100%; 
   }
   .hero__image__container {
     width: 100%;
+    margin-bottom:80px; 
+    position:relative;
   }
-  
-  .hero__image {
-    width: 100%;
+  .hero__image1 {
+    width:100%; 
+    position: absolute;
+  }
+  .hero__image2
+  {
+    z-index:-1;
+    position: absolute;
+  }
+  .hero__image3{
+    z-index:-2;
   }
   
   .hero__text {
@@ -135,6 +144,7 @@
   width: 120%;
   height: 200px;
 }
+
 .personal__text
 {
   font-size: 30px;
@@ -200,20 +210,23 @@ input{
 .footer__style__texts
 {
   width:100%;
- text-align:center;
+ color:white;
+ width:100%;
+ margin-bottom:20px;
 }
 .footer__style__text1
 {
   color:white;
   font-size: 70px;
-  margin-top:50px;
+  margin-top:40px;
   width:100%;
-  margin-bottom:50px;
+  margin-bottom:40px;
+  text-align:center;
 }
 .footer__style__text2
 {
-  color:#fff;
-  width:100%;
+ text-align: center;
+ margin-bottom:5px;
 }
 
 
@@ -236,7 +249,7 @@ input{
       align-items: center;
       justify-content: space-between;
       gap: 10px;
-  
+     width:100%;
     }
     .explore__menu__lists
     {
@@ -319,10 +332,6 @@ input{
     .container {
       max-width: 900px;
     }
-  
-    .hero__text {
-      font-size: 50px;
-    }
     .explore__menu__lists
     {
         gap:20px;
@@ -343,4 +352,4 @@ input{
     .container {
       max-width: 1250px;
     }
-  }
+    }
