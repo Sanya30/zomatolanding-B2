@@ -178,8 +178,8 @@ input{
 }
 .quote__container{
   display:flex;
-  background-color:#1d3557;;
   align-items:center;
+  background-color:rgb(10, 42, 129);
   margin-top:85px;
   width:100%;
   padding:50px 50px;
@@ -189,12 +189,14 @@ input{
 {
   width:100%;
   color:#fff;
-  text-align: center;
 }
 .quote__container__para
 {
-  font-size:19px;
+  font-size: 17px;
+  width:100%;
 }
+
+
 /*footer*/
 .footer__style
 {
